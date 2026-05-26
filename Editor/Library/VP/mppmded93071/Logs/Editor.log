@@ -1,0 +1,1718 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.3f1 (c7638eb16d91) revision 13067150'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-46734" at "2026-02-27T09:25:35.1935831Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'sv' Physical Memory: 16247 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+Date: 2026-02-27T09:25:35Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe
+-scenarioClone
+-editor-mode
+com.unity.mppm.clone
+-no-cloud-project-bind-popup
+-noLaunchScreen
+-library-redirect
+../..
+-readonly
+-noUpm
+-upmRestorePackages
+-name
+Player 2
+-projectPath
+C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\VP\mppmded93071
+--virtual-project-clone
+-forgetProjectPath
+-library-redirect
+../..
+-readonly
+-DisableDirectoryMonitor
+-noUpm
+-upmRestorePackages
+-noMainWindow
+-suppressDefaultMenuEntries
+-logFile
+C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\VP\mppmded93071\Logs\Editor.log
+-vp-channel-name=vp-channel
+-ump-channel-service-port
+59801
+-mainProcessId=22388
+-vpId=mppmded93071
+-buildTarget
+StandaloneWindows64
+-standaloneBuildSubtarget
+Player
+Successfully changed project path to: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\VP\mppmded93071
+C:/Users/46734/Documents/GitHub/reactional-resonance/My project/Library/VP/mppmded93071
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8164]  Target information:
+
+Player connection [8164]  * "[IP] 100.86.61.28 [Port] 55505 [Flags] 2 [Guid] 3325743876 [EditorId] 3325743876 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ISGGRE2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8164] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8164] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26324, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              322888e6d79b45cd9088fa8f11b56a27
+  Correlation Id:          bd5b7cd384d3f95fade3291f67313009
+  External correlation Id: 2611594918717663898
+  Machine Id:              IawBds4jC1AyY0cyailyaFZOUwc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-46734" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-46734-notifications" at "2026-02-27T09:25:35.2453856Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5772729616825-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+Library Redirect Path: ../../
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Targeting platform: StandaloneWindows64
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.3f1 (c7638eb16d91)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/46734/Documents/GitHub/reactional-resonance/My project/Library/VP/mppmded93071/Assets
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:          NVIDIA
+    VRAM:            8024 MB
+    App VRAM Budget: 7256 MB
+    Driver:          32.0.15.8132
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002279 seconds.
+- Loaded All Assemblies, in  0.338 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 634ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (299ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 69 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@12.0.2 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.animation@34e0443c58ed)
+    com.unity.2d.aseprite@2.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.aseprite@f6e7e126ac6d)
+    com.unity.2d.psdimporter@11.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.psdimporter@0adcab25a8fd)
+    com.unity.2d.spriteshape@12.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.spriteshape@1d246726c231)
+    com.unity.2d.tilemap.extras@5.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.tilemap.extras@2338d989ff2a)
+    com.unity.collab-proxy@2.11.3 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623)
+    com.unity.ide.rider@3.0.36 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db)
+    com.unity.ide.visualstudio@2.0.23 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13)
+    com.unity.inputsystem@1.14.2 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.multiplayer.playmode@1.6.3 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.multiplayer.playmode@d6d235962e24)
+    com.unity.multiplayer.tools@2.2.8 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.multiplayer.tools@acc3b25185bb)
+    com.unity.netcode.gameobjects@2.7.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.netcode.gameobjects@bd2a018756ed)
+    com.unity.timeline@1.8.9 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.timeline@6b9e48457ddb)
+    com.unity.visualscripting@1.9.7 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.visualscripting@6279e2b7c485)
+    com.unity.transport@2.6.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.transport@6e74a0e6481d)
+    com.unity.nuget.mono-cecil@1.11.5 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb)
+    com.unity.burst@1.8.24 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.burst@f7a407abf4d5)
+    com.unity.collections@2.5.7 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.collections@d49facba0036)
+    com.unity.mathematics@1.3.2 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.profiling.core@1.0.2 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.profiling.core@aac7b93912bc)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0)
+    com.unity.2d.common@11.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.common@dd402daace1b)
+    com.unity.searcher@4.9.3 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.searcher@1e17ce91558d)
+    com.unity.test-framework.performance@3.1.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.2d.tilemap@ba4a6b72f451)
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.universal@17.2.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.render-pipelines.universal@635feed73fad)
+    com.unity.test-framework@1.5.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.test-framework@a6f5be5f149c)
+    com.unity.ugui@2.0.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.ugui@f33505fcd0e6)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+    com.unity.render-pipelines.core@17.2.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.render-pipelines.core@e2a954003fc5)
+    com.unity.shadergraph@17.2.0 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.shadergraph@1f53f6b578bf)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.rendering.light-transport@1.0.1 (location: C:\Users\46734\Documents\GitHub\reactional-resonance\My project\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.934 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.225 seconds
+Domain Reload Profiling: 4150ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (662ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2993ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (2478ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Asset Pipeline Refresh (id=e18e303cffbc0a846869864438a376b2): Total: 5.078 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4111 ms
+		Asset DB Callback time: managed=0 ms, native=30 ms
+		Scripting: domain reloads=1, domain reload time=934 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 30.632ms
+	ApplyChangesToAssetFolders: 0.311ms
+	CategorizeAssets: 66.288ms
+	ImportOutOfDateAssets: 3240.920ms (3237.118ms without children)
+		CompileScripts: 1.252ms
+		ReloadNativeAssets: 0.022ms
+		UnloadImportedAssets: 1.050ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.040ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.437ms
+	Hotreload: 1.506ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.252ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.044ms
+	Untracked: 1737.845ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 9.235ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8049 unused Assets / (13.3 MB). Loaded Objects now: 8686.
+Memory consumption went from 239.2 MB to 225.9 MB.
+Total: 17.495500 ms (FindLiveObjects: 0.795200 ms CreateObjectMapping: 0.477300 ms MarkObjects: 8.411200 ms  DeleteObjects: 7.810800 ms)
+
+[Project] Loading completed in 7.286 seconds
+	Project init time: 				6.801 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.000 seconds
+		Asset Database init time: 		0.144 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			0.658 seconds
+		Unity extensions init time: 	0.040 seconds
+		Asset Database refresh time: 	5.078 seconds
+	Scene opening time: 			0.380 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1772184342429,"processId":14256,"projectLoad":7.2856096,"projectInit":6.8005751,"templateInit":0.0,"packageManagerInit":4e-7,"assetDatabaseInit":0.1444853,"globalIlluminationInit":0.0027711,"assembliesLoad":0.6584097,"unityExtensionsInit":0.039549,"assetDatabaseRefresh":5.0779113,"sceneOpening":0.3798377}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1772184342429,"processId":14256,"editorVersion":"6000.2.3f1 (c7638eb16d91)","branch":"6000.2/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=61958cd90089aa5459f80c291843ac6a): Total: 0.998 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=997 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.222ms
+	CategorizeAssets: 116.677ms
+	ImportOutOfDateAssets: 1.680ms (0.388ms without children)
+		ReloadNativeAssets: 0.024ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.806ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.460ms
+	Hotreload: 1.881ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.207ms
+	UnloadStreamsBegin: 0.996ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 875.900ms
+
+Created GICache directory at C:/Users/46734/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.017s, timestamps: [7.288 - 7.305]
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "vtO58AEz"... (expires: 2026-02-27T10:37:15Z)
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            186.114 ms
+	Integration:            700.431 ms
+	Integration of assets:  3.057 ms
+	Thread Wait Time:       0.188 ms
+	Total Operation Time:   889.790 ms
+Unloading 7960 unused Assets / (2.6 MB). Loaded Objects now: 8860.
+Memory consumption went from 281.8 MB to 279.2 MB.
+Total: 16.793100 ms (FindLiveObjects: 1.488000 ms CreateObjectMapping: 1.237500 ms MarkObjects: 10.127000 ms  DeleteObjects: 3.939100 ms)
+
+UPID Received '9c20cb04-3e30-4bd4-b5d0-9a290040a35a'.
+SpriteAtlasPacking completed in 0.005539 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.416 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.904 seconds
+Domain Reload Profiling: 3315ms
+	BeginReloadAssembly (777ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (71ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (502ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (222ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1905ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (253ms)
+Asset Pipeline Refresh (id=36ce66c1b6303e44bb860d36761ffa61): Total: 4.315 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2869 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1444 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.437ms
+	CategorizeAssets: 111.957ms
+	ImportOutOfDateAssets: 1918.214ms (1911.107ms without children)
+		CompileScripts: 1.175ms
+		CollectScriptTypesHashes: 3.434ms
+		ReloadNativeAssets: 1.069ms
+		UnloadImportedAssets: 0.115ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.941ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.370ms
+	Hotreload: 0.158ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.285ms
+	UnloadStreamsBegin: 1.523ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 5.533ms
+	Untracked: 2282.465ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.261 ms
+	Integration:            426.580 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   429.865 ms
+Asset Pipeline Refresh (id=bbee6935206bf734386613982103a422): Total: 0.731 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=731 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.258ms
+	CategorizeAssets: 95.127ms
+	ImportOutOfDateAssets: 1.343ms (0.293ms without children)
+		ReloadNativeAssets: 0.030ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.669ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.349ms
+	Hotreload: 1.862ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.189ms
+	UnloadStreamsBegin: 0.002ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 632.303ms
+
+[Netcode] StartClient
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1366)
+Buttons:Client () (at C:/Users/46734/Documents/GitHub/reactional-resonance/My project/Assets/Scripts/GameState/Buttons.cs:18)
+UnityEngine.Events.InvokableCall:Invoke ()
+UnityEngine.Events.UnityEvent:Invoke ()
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/UI/Core/Button.cs:70)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:744)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:489)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2438)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] Initialize
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1186)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1379)
+Buttons:Client () (at C:/Users/46734/Documents/GitHub/reactional-resonance/My project/Assets/Scripts/GameState/Buttons.cs:18)
+UnityEngine.Events.InvokableCall:Invoke ()
+UnityEngine.Events.UnityEvent:Invoke ()
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/UI/Core/Button.cs:70)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:744)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:489)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2438)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@f33505fcd0e6/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] [Approval Pending][Client] Transport connection with server established! Awaiting connection approval...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkConnectionManager:ConnectEventHandler (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:532)
+Unity.Netcode.NetworkConnectionManager:HandleNetworkEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:477)
+Unity.Netcode.NetworkTransport:InvokeOnTransportEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:53)
+Unity.Netcode.Transports.UTP.UnityTransport:ProcessEvent () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:995)
+Unity.Netcode.Transports.UTP.UnityTransport:OnEarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1063)
+Unity.Netcode.NetworkTransport:EarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:131)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:341)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] [Client-1] Connection approved! Synchronizing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.ConnectionApprovedMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs:271)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ConnectionApprovedMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:349)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] [Client-1][Scene Management Enabled] Synchronization complete!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/SceneManagement/NetworkSceneManager.cs:2392)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/SceneManagement/NetworkSceneManager.cs:2223)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/SceneManagement/NetworkSceneManager.cs:2154)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/SceneManagement/NetworkSceneManager.cs:2310)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/SceneManagement/NetworkSceneManager.cs:2655)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/Messages/SceneEventMessage.cs:29)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:563)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:422)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Messaging/NetworkMessageManager.cs:448)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:349)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+TrimDiskCacheJob: Current cache size 1329mb
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] Disconnect Event From 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkConnectionManager:DisconnectEventHandler (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:600)
+Unity.Netcode.NetworkConnectionManager:HandleNetworkEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:483)
+Unity.Netcode.NetworkTransport:InvokeOnTransportEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:53)
+Unity.Netcode.Transports.UTP.UnityTransport:ProcessEvent () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1021)
+Unity.Netcode.Transports.UTP.UnityTransport:OnEarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1063)
+Unity.Netcode.NetworkTransport:EarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:131)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:341)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] [Disconnect Event][Client-1][TransportClientId-4294967296][ClosedByRemote] Connection was closed by remote endpoint.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkConnectionManager:GenerateDisconnectInformation (ulong,ulong,string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:579)
+Unity.Netcode.NetworkConnectionManager:DisconnectEventHandler (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:615)
+Unity.Netcode.NetworkConnectionManager:HandleNetworkEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:483)
+Unity.Netcode.NetworkTransport:InvokeOnTransportEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:53)
+Unity.Netcode.Transports.UTP.UnityTransport:ProcessEvent () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1021)
+Unity.Netcode.Transports.UTP.UnityTransport:OnEarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1063)
+Unity.Netcode.NetworkTransport:EarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:131)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:341)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] Shutdown
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:Shutdown (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1549)
+Unity.Netcode.NetworkConnectionManager:DisconnectEventHandler (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:645)
+Unity.Netcode.NetworkConnectionManager:HandleNetworkEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:483)
+Unity.Netcode.NetworkTransport:InvokeOnTransportEvent (Unity.Netcode.NetworkEvent,ulong,System.ArraySegment`1<byte>,single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:53)
+Unity.Netcode.Transports.UTP.UnityTransport:ProcessEvent () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1021)
+Unity.Netcode.Transports.UTP.UnityTransport:OnEarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/UTP/UnityTransport.cs:1063)
+Unity.Netcode.NetworkTransport:EarlyUpdate () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Transports/NetworkTransport.cs:131)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:341)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:214)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:493)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:286)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] Trying to get the transport client ID map for the NGO client ID (1) but did not find the map entry! Returning default transport ID value.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkConnectionManager:Shutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:1527)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1628)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:493)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:286)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 28)
+
+[Netcode] [Disconnect Event][Client-1][TransportClientId-0][TransportShutdown] NetworkConnectionManager was shutdown. The transport was shutdown.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkConnectionManager:GenerateDisconnectInformation (ulong,ulong,string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:579)
+Unity.Netcode.NetworkConnectionManager:Shutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:1528)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1628)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:493)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:286)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] NetworkConnectionManager.Shutdown() -> IsListening && NetworkTransport != null -> NetworkTransport.Shutdown()
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkConnectionManager:Shutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Connection/NetworkConnectionManager.cs:1613)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1628)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:493)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:191)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkUpdateLoop.cs:286)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.024 ms
+	Integration:            307.305 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   311.342 ms
+Unloading 7961 unused Assets / (4.1 MB). Loaded Objects now: 9613.
+Memory consumption went from 351.0 MB to 346.8 MB.
+Total: 19.743000 ms (FindLiveObjects: 0.880000 ms CreateObjectMapping: 0.824500 ms MarkObjects: 14.599900 ms  DeleteObjects: 3.437500 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9f214f794934eec488304182cf9d0a03): Total: 0.627 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=10 (actual=0, local cache=10, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=626 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1807, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.239ms
+	CategorizeAssets: 82.595ms
+	ImportOutOfDateAssets: 4.837ms (0.324ms without children)
+		ReloadNativeAssets: 3.403ms
+		UnloadImportedAssets: 0.003ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.651ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.453ms
+	Hotreload: 7.299ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.200ms
+	UnloadStreamsBegin: 0.027ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 531.433ms
+
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6bba8da73c7ce0846a9e808b11b42514): Total: 0.309 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=308 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1807, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.000ms
+	ApplyChangesToAssetFolders: 0.213ms
+	CategorizeAssets: 41.845ms
+	ImportOutOfDateAssets: 1.613ms (0.329ms without children)
+		ReloadNativeAssets: 0.031ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.843ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.408ms
+	Hotreload: 6.162ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.269ms
+	UnloadStreamsBegin: 0.104ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 258.742ms
+
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=569bf42e42dc86d4a90aef656cc442e5): Total: 0.324 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=2 (actual=0, local cache=2, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=323 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1807, non-scripts=3121
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.000ms
+	ApplyChangesToAssetFolders: 0.175ms
+	CategorizeAssets: 42.244ms
+	ImportOutOfDateAssets: 1.405ms (0.308ms without children)
+		ReloadNativeAssets: 0.032ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.685ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.378ms
+	Hotreload: 7.388ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.236ms
+	UnloadStreamsBegin: 0.119ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 272.307ms
+
+Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6f56b05e2d3dc1b49bf6384bc729c97f): Total: 0.490 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=490 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.256ms
+	CategorizeAssets: 52.293ms
+	ImportOutOfDateAssets: 1.580ms (0.344ms without children)
+		ReloadNativeAssets: 0.033ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.760ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.442ms
+	Hotreload: 6.865ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.265ms
+	UnloadStreamsBegin: 0.173ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 428.876ms
+
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b4aefe3b1eab8774b9e5a18e057ca83c): Total: 0.306 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=1 (actual=0, local cache=1, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=305 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.216ms
+	CategorizeAssets: 41.280ms
+	ImportOutOfDateAssets: 1.408ms (0.312ms without children)
+		ReloadNativeAssets: 0.028ms
+		UnloadImportedAssets: 0.001ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.641ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.425ms
+	Hotreload: 5.612ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.335ms
+	UnloadStreamsBegin: 0.133ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 256.918ms
+
+SpriteAtlasPacking completed in 0.004170 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.282 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.706 seconds
+Domain Reload Profiling: 2982ms
+	BeginReloadAssembly (632ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (404ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (746ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (111ms)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fd212fb632074114a8cc387d7104c59a): Total: 3.998 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2690 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1306 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.491ms
+	CategorizeAssets: 109.021ms
+	ImportOutOfDateAssets: 1721.419ms (1716.463ms without children)
+		CompileScripts: 1.343ms
+		CollectScriptTypesHashes: 0.650ms
+		ReloadNativeAssets: 1.112ms
+		UnloadImportedAssets: 0.103ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.294ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.452ms
+	Hotreload: 9.364ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.263ms
+	UnloadStreamsBegin: 0.128ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.770ms
+	Untracked: 2157.447ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.227 ms
+	Integration:            412.040 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   416.282 ms
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=973e4adc9b7ca2545b30d7482363fb5b): Total: 0.660 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=659 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.239ms
+	CategorizeAssets: 85.593ms
+	ImportOutOfDateAssets: 1.550ms (0.361ms without children)
+		ReloadNativeAssets: 0.038ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.743ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.405ms
+	Hotreload: 6.540ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.247ms
+	UnloadStreamsBegin: 0.113ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 565.513ms
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.675 ms
+	Integration:            305.058 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   307.745 ms
+Unloading 12025 unused Assets / (8.1 MB). Loaded Objects now: 5573.
+Memory consumption went from 348.9 MB to 340.8 MB.
+Total: 22.894900 ms (FindLiveObjects: 0.981100 ms CreateObjectMapping: 0.497600 ms MarkObjects: 14.277300 ms  DeleteObjects: 7.138000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+SpriteAtlasPacking completed in 0.003643 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.241 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.703 seconds
+Domain Reload Profiling: 2937ms
+	BeginReloadAssembly (593ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (368ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (744ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (94ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5c4ca5d8e1be5ee4db6df9c48498261c): Total: 3.939 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2676 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1261 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.482ms
+	CategorizeAssets: 113.966ms
+	ImportOutOfDateAssets: 1718.861ms (1714.267ms without children)
+		CompileScripts: 1.242ms
+		CollectScriptTypesHashes: 0.642ms
+		ReloadNativeAssets: 1.295ms
+		UnloadImportedAssets: 0.095ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.911ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.409ms
+	Hotreload: 7.096ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.195ms
+	UnloadStreamsBegin: 0.076ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 4.678ms
+	Untracked: 2098.264ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.632 ms
+	Integration:            454.098 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   457.747 ms
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=77a7574e66f8aed47ab97622a2f7cc66): Total: 0.694 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=694 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3119
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.370ms
+	CategorizeAssets: 93.752ms
+	ImportOutOfDateAssets: 1.326ms (0.296ms without children)
+		ReloadNativeAssets: 0.029ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.613ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.387ms
+	Hotreload: 6.811ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.253ms
+	UnloadStreamsBegin: 0.167ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 591.456ms
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.238 ms
+	Integration:            329.270 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   331.529 ms
+Unloading 12025 unused Assets / (9.5 MB). Loaded Objects now: 5618.
+Memory consumption went from 350.6 MB to 341.1 MB.
+Total: 29.657500 ms (FindLiveObjects: 0.983100 ms CreateObjectMapping: 0.669200 ms MarkObjects: 17.408800 ms  DeleteObjects: 10.595200 ms)
+
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=426a829854fe11643a05e8c87147170f): Total: 0.562 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=2 (actual=0, local cache=2, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=562 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.261ms
+	CategorizeAssets: 72.616ms
+	ImportOutOfDateAssets: 1.479ms (0.295ms without children)
+		ReloadNativeAssets: 0.026ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.605ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.551ms
+	Hotreload: 7.142ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.200ms
+	UnloadStreamsBegin: 0.083ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 480.254ms
+
+Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7602438c5dd959940890a26ed8aa9076): Total: 0.306 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=1 (actual=0, local cache=1, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=306 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.175ms
+	CategorizeAssets: 37.317ms
+	ImportOutOfDateAssets: 1.329ms (0.297ms without children)
+		ReloadNativeAssets: 0.028ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.603ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.399ms
+	Hotreload: 5.966ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.218ms
+	UnloadStreamsBegin: 0.128ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 261.346ms
+
+SpriteAtlasPacking completed in 0.003851 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.260 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.695 seconds
+Domain Reload Profiling: 2950ms
+	BeginReloadAssembly (634ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (420ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1138ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (762ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (118ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=be39fd068ff0392428a54c6663f37ffc): Total: 4.004 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2716 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1286 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.003ms
+	ApplyChangesToAssetFolders: 0.451ms
+	CategorizeAssets: 116.828ms
+	ImportOutOfDateAssets: 1711.026ms (1706.737ms without children)
+		CompileScripts: 1.194ms
+		CollectScriptTypesHashes: 0.666ms
+		ReloadNativeAssets: 1.067ms
+		UnloadImportedAssets: 0.096ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.861ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.404ms
+	Hotreload: 8.090ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.197ms
+	UnloadStreamsBegin: 0.116ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 4.645ms
+	Untracked: 2167.223ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.526 ms
+	Integration:            433.979 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   437.524 ms
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4e6b896e1e1571746a69ddab526522d9): Total: 0.647 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=646 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.330ms
+	CategorizeAssets: 82.899ms
+	ImportOutOfDateAssets: 1.401ms (0.316ms without children)
+		ReloadNativeAssets: 0.026ms
+		UnloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.680ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.376ms
+	Hotreload: 8.205ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.237ms
+	UnloadStreamsBegin: 0.152ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 553.490ms
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.442 ms
+	Integration:            291.173 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   293.634 ms
+Unloading 12024 unused Assets / (7.7 MB). Loaded Objects now: 5685.
+Memory consumption went from 353.0 MB to 345.3 MB.
+Total: 20.567200 ms (FindLiveObjects: 0.854800 ms CreateObjectMapping: 0.443000 ms MarkObjects: 12.544100 ms  DeleteObjects: 6.724400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+SpriteAtlasPacking completed in 0.004169 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.284 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.976 seconds
+Domain Reload Profiling: 3254ms
+	BeginReloadAssembly (640ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (404ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (800ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (277ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=34d5fd3eada60614bb0fe767e8668089): Total: 4.304 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2994 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1309 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.004ms
+	ApplyChangesToAssetFolders: 0.485ms
+	CategorizeAssets: 129.429ms
+	ImportOutOfDateAssets: 1994.090ms (1989.317ms without children)
+		CompileScripts: 1.268ms
+		CollectScriptTypesHashes: 0.779ms
+		ReloadNativeAssets: 1.131ms
+		UnloadImportedAssets: 0.107ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.962ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.526ms
+	Hotreload: 7.792ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.338ms
+	UnloadStreamsBegin: 0.027ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 4.229ms
+	Untracked: 2172.285ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.496 ms
+	Integration:            481.076 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   484.593 ms
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=25dd4af48767e85488f09e32fe724134): Total: 0.703 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=702 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.315ms
+	CategorizeAssets: 96.273ms
+	ImportOutOfDateAssets: 1.460ms (0.313ms without children)
+		ReloadNativeAssets: 0.030ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.673ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.442ms
+	Hotreload: 8.418ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.313ms
+	UnloadStreamsBegin: 0.152ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 595.729ms
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.472 ms
+	Integration:            314.933 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   317.420 ms
+Unloading 12025 unused Assets / (7.8 MB). Loaded Objects now: 5708.
+Memory consumption went from 350.9 MB to 343.2 MB.
+Total: 23.676800 ms (FindLiveObjects: 0.933000 ms CreateObjectMapping: 0.502300 ms MarkObjects: 14.820600 ms  DeleteObjects: 7.420200 ms)
+
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+SpriteAtlasPacking completed in 0.003963 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.257 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[MODES] Loading editor mode Multiplayer Playmode Clone (1) from command line.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.845 seconds
+Domain Reload Profiling: 3096ms
+	BeginReloadAssembly (615ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (393ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1119ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (225ms)
+			ProcessInitializeOnLoadAttributes (735ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (250ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=120854ca8f56ae441811808ad94789a3): Total: 4.119 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2837 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1279 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.003ms
+	ApplyChangesToAssetFolders: 0.441ms
+	CategorizeAssets: 113.397ms
+	ImportOutOfDateAssets: 1860.637ms (1855.384ms without children)
+		CompileScripts: 1.248ms
+		CollectScriptTypesHashes: 0.725ms
+		ReloadNativeAssets: 1.711ms
+		UnloadImportedAssets: 0.107ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.964ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.498ms
+	Hotreload: 13.933ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.291ms
+	UnloadStreamsBegin: 0.078ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 4.617ms
+	Untracked: 2129.919ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.382 ms
+	Integration:            406.450 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   411.849 ms
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a2deb9f940549b54f9b7b196a8392f43): Total: 0.685 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=684 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1806, non-scripts=3120
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.241ms
+	CategorizeAssets: 88.969ms
+	ImportOutOfDateAssets: 1.587ms (0.350ms without children)
+		ReloadNativeAssets: 0.041ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.754ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.438ms
+	Hotreload: 6.628ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.205ms
+	UnloadStreamsBegin: 0.128ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 586.867ms
+
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Netcode] ShutdownInternal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.Netcode.NetworkLog:LogInfo (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs:22)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1580)
+Unity.Netcode.NetworkManager:OnDestroy () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1713)
+Unity.Netcode.NetworkManager:OnApplicationQuit () (at ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Core/NetworkManager.cs:1699)
+
+(Filename: ./Library/PackageCache/com.unity.netcode.gameobjects@bd2a018756ed/Runtime/Logging/NetworkLog.cs Line: 22)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.590 ms
+	Integration:            307.808 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   311.418 ms
+Unloading 12025 unused Assets / (7.1 MB). Loaded Objects now: 5753.
+Memory consumption went from 351.0 MB to 343.9 MB.
+Total: 24.367000 ms (FindLiveObjects: 0.931800 ms CreateObjectMapping: 0.572800 ms MarkObjects: 15.470300 ms  DeleteObjects: 7.391400 ms)
+
+[LAYOUT] About to load Library/UserSettings/Layouts\layout_0010.wlt, keepMainWindow=False
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[LAYOUT] About to save layout Library/UserSettings/Layouts\layout_0010.wlt
+[Licensing::Client] Successfully resolved entitlement details
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/9c20cb04-3e30-4bd4-b5d0-9a290040a35a", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "YML_Vzml"... (expires: 2026-02-27T12:37:16Z)
+UPID Received '9c20cb04-3e30-4bd4-b5d0-9a290040a35a'.
+Connection closed!
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-46734-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-46734 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+debugger-agent: Unable to listen on 4660
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1772189612193,"processId":14256,"allocatedMemory":17790912,"memoryLabels":[{"Default":26009},{"Permanent":15468},{"NewDelete":66657},{"Thread":4238472},{"Manager":2340317},{"VertexData":8},{"Geometry":816},{"VFX":-104},{"Texture":296},{"Shader":80741},{"Material":24},{"GfxDevice":57248},{"GfxThread":1536},{"Animation":392},{"Audio":4040},{"FontEngine":256},{"Physics":2050},{"Serialization":101760},{"Input":14824},{"JobScheduler":36504},{"TextLib":160},{"Mono":32},{"MonoCode":128},{"ScriptingNativeRuntime":154968},{"BaseObject":1620144},{"Resource":1304},{"Renderer":2928},{"Transform":4646},{"File":3941},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":10704},{"DynamicArray":89080},{"HashMap":87625},{"Utility":2660610},{"Curl":48},{"PoolAlloc":2680},{"AI":40},{"TypeTree":481573},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7824},{"Director":8240},{"CloudService":6344},{"WebRequest":8136},{"VR":46114},{"SceneManager":496},{"Video":208},{"LazyScriptCache":32},{"NativeArray":35000},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":256},{"Hierarchy":272},{"CoreStats":12424},{"Identifiers":12384},{"Gui":173},{"EditorUtility":134431},{"VersionControl":4},{"Undo":947},{"AssetDatabase":4993651},{"EditorGi":328},{"UnityConnect":24752},{"Upm":1328},{"DrivenProperties":72},{"ChannelService":384},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":14930},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
